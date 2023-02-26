@@ -8,9 +8,6 @@ body{
     
 }
 
-
-
-
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -20,6 +17,18 @@ body{
     -o-background-size: cover;
     background-size: cover;
   }
+
+  .carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.3);
+  }
+
   
   .carousel-caption {
     bottom: 270px;
@@ -40,11 +49,17 @@ body{
   }
   #logo{
     color: #fff;
-    font-size: 35px;
-    
+    font-size: 45px;
+    font-family: 'Forum', cursive;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
   }
+
+  #logo:hover{
+    cursor:default;
+  }
+
+  
   
   .navbar-light .navbar-brand {
     color: #fff;
@@ -54,20 +69,21 @@ body{
     letter-spacing: 2px;
   }
   
-  
-  
   .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.964);
   }
+
   .nav-link.active,.nav-link:focus{
-    color: #fff;
+    color: rgb(255, 255, 255);
   }
+
   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
+    color: rgb(211, 211, 211);
   } 
   
   .navbar-light .navbar-nav .nav-link {
     color: #fff;
+    font-size: 1.2rem;
   }
   
   .navbar-toggler {
@@ -88,6 +104,3 @@ body{
     line-height: 0.3;
   }
   
-  .navbar{
-    
-  }
