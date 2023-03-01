@@ -5,49 +5,13 @@ html{
 body{
     margin: 0;
     min-height: 100vh;
-    background-color:  #aeaeae;
+    background-color:  #ffffff;
     
 }
 
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+   /* nav section */
 
-  .carousel-item:after {
-    content:"";
-    display:block;
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(0,0,0,0.3)
-  }
 
-  
-  .carousel-caption {
-    bottom: 270px;
-  }
-  
-  .carousel-caption h5 {
-    font-size: 45px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 25px;
-  }
-  
-  .carousel-caption p {
-    width: 75%;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.9;
-  }
   #logo{
     color: #fff;
     font-size: 2.5rem;
@@ -104,4 +68,76 @@ body{
     font-size: 18px;
     line-height: 0.3;
   }
+
+  /* nav section */
+
+
+/* carousel */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.3)
+}
+
+
+.carousel-caption {
+  bottom: 270px;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+/* carousel */
+
+/* about section */
+#about{
+  background-color: rgb(233, 233, 233);
+  padding: 4rem;
+}
+/* about section */
+
+/* collections section */
+#collections{
+  padding: 4rem;
+}
+/* collections section */
   
+  /* footer section */
+
+  #footer{
+    background-color: #373d37;
+    border-top: 1px solid #fff;
+  }
+
+  .foot-links{
+    color: #fff;
+  }
+
+  /* footer section */
