@@ -116,14 +116,17 @@ body{
 
 /* carousel */
 
-/* about section */
-#about{
+/* why us*/
+#why-us{
   background-color: rgb(233, 233, 233);
   padding: 4rem;
 }
-/* about section */
+/* why us */
 
-/* mission */
+/* about */
+
+
+
 .d-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -169,7 +172,7 @@ body{
   width: 100%;
   object-fit: cover;
 }
-/* mission */
+/* about */
 
 /* collections section */
 #collections{
